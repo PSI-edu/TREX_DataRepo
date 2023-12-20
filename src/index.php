@@ -2,7 +2,7 @@
 /* Simple Viewer */
 
 ?>
-<html>
+<html lang="English">
 <head>
 <title>Simple Viewer</title>
 </head>
