@@ -1,0 +1,15 @@
+<php?
+// This is a stripped down viewer
+?>
+
+<html>
+<head>
+<title>Simple Viewer</title>
+</head>
+<body>
+<?php
+include("display.php");
+?>
+</body>
+</html>
+
