@@ -15,7 +15,7 @@ foreach ($files as $file) {
         $subfiles = scandir($subdir);
         foreach ($subfiles as $subfile) {
             if ($subfile != "." && $subfile != "..") {
-                echo "<a href=\"../data/$file/$subfile\">$subfile</a><br>";
+                echo "<a href='/TREX_DataRepo/data/$file/$subfile'>$subfile</a><br>";
             }
         }
     }
