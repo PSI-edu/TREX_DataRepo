@@ -3,6 +3,9 @@
 ?>
 <h2>Data Available</h2>
 <?php
+// echo the current directory
+echo __DIR__ ." <br>";
+
 // List out all the directories in the data directory one level up, and all the files in each directory
 $dir = "../data";
 $files = scandir($dir);
