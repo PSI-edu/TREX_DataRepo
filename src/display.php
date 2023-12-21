@@ -1,7 +1,6 @@
 <?php
 // This is used by the simple viewer and Wordpress to display things
 ?>
-<h2>Data Available</h2>
 <?php
 
 // List out all the directories in the data directory one level up, and all the files in each directory

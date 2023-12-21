@@ -4,7 +4,7 @@
 ?>
 <html lang="English">
 <head>
-<title>Simple Viewer</title>
+<title>Simple Viewer: TREX Data</title>
 </head>
 <body>
 <h3>Simple Viewer</h3>
