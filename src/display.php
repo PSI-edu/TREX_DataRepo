@@ -3,11 +3,10 @@
 ?>
 <h2>Data Available</h2>
 <?php
-// echo the current directory
-echo __DIR__ ." <br>";
 
 // List out all the directories in the data directory one level up, and all the files in each directory
-$dir = "../data";
+$dir =  dirname(__DIR__, 1);
+$dir = $dir."/data";
 $files = scandir($dir);
 foreach ($files as $file) {
     if ($file != "." && $file != "..") {
